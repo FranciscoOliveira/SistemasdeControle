@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+	cout<<"Forneça um numero inteiro no intervalo de 1 a 10:\n";
+	int a= 0;
+	cin>>a;
+	    
+		if (1<=a && a<=10)
+		cout<<"numero informado "<<a<<" esta no intervalo 1 a 10";
+		
+		else 
+
+	
+		cout<<"numero informado "<<a<<" nao esta no intervalo 1 a 10";
+			
+		
+	
+}
