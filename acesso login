@@ -11,6 +11,13 @@ cout <<"Acesse sua conta:";
 cout <<"Digite seu login:";
 cin>> login;
 cout << "digite sua senha:";
-cint>> senha;
+cin>> senha;
 
+if((login == "administrador" || login =="ADMINISTRADOR") && senha == 1234)
+	cout <<"Bem vindo!!" << endl;
+else
+cout<<"Dados incorretos, tente novamente!!"<<endl;
+
+return 0;
+}
 }
